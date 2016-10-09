@@ -1,0 +1,40 @@
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+#eeSlider {
+	overflow: scroll;
+	margin: auto;
+	border: 1px solid red;
+}
+
+#eeSlider img {
+	width: 100%;
+}
+
+#eeSlider .slide {
+	float: left;
+	border: 0px solid black;
+	position: relative;
+}
+
+#eeSlider .slide .slide-data {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+#eeSlider .slide .slide-data h1 {
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+}
+
+#eeSlider .eeSlider-inner-wrap {
+	width: 10000px;
+}
